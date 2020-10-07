@@ -1,4 +1,5 @@
 ﻿using Maze.Library;
+using System;
 
 namespace Maze.Solver
 {
@@ -34,13 +35,78 @@ namespace Maze.Solver
             // Here you have to add your code
 
             // Trivial sample algorithm that can just move right
-            var reachedEnd = false;
-            robot.ReachedExit += (_, __) => reachedEnd = true;
 
-            while (!reachedEnd)
+
+            /*while (!reachedEnd)
             {
                 robot.Move(Direction.Right);
+            }*/
+
+            robot.ReachedExit += (_, __) => reachedEnd = true;
+
+            //PerformMovement(null);
+
+            CalculatePath();
+
+
+        }
+
+        public void CalculatePath()
+        {
+            Random rnd = new Random();
+            int moves = 0;
+            while (!reachedEnd)
+            {
+                robot.TryMove((Direction)rnd.Next(0, 4));
+
+                moves++;
+                if (moves == 10000000)
+                {
+                    robot.HaltAndCatchFire();
+                    break;
+                }
             }
+        }
+
+        bool reachedEnd = false;
+
+        public void PerformMovement(Direction? directionWhereICameFrom)
+        {
+            if (reachedEnd) return;
+
+            robot.TryMove(Direction.Right);
+            PerformMovement(Direction.Right);
+
+
+            /*if (robot.TryMove(Direction.Up) && directionWhereICameFrom != Direction.Down)
+            {
+                PerformMovement(Direction.Down);
+            }
+            else if (robot.TryMove(Direction.Right) && directionWhereICameFrom != Direction.Left)
+            {
+                PerformMovement(Direction.Left);
+            }
+            else if (robot.TryMove(Direction.Down) && directionWhereICameFrom != Direction.Up)
+            {
+                PerformMovement(Direction.Up);
+            }
+            else if (robot.TryMove(Direction.Left) && directionWhereICameFrom != Direction.Right)
+            {
+                PerformMovement(Direction.Right);
+            }
+            else
+            {
+                if (directionWhereICameFrom != null)
+                {
+                    return;
+                    //robot.TryMove((Direction)directionWhereICameFrom!);
+                }
+                else
+                {
+                    robot.HaltAndCatchFire();
+                    return;
+                }
+            }*/
         }
     }
 }

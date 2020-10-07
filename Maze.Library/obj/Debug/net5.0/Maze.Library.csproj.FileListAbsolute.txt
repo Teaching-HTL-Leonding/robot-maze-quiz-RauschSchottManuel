@@ -1,0 +1,12 @@
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\bin\Debug\net5.0\Maze.Library.deps.json
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\bin\Debug\net5.0\Maze.Library.dll
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\bin\Debug\net5.0\ref\Maze.Library.dll
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\bin\Debug\net5.0\Maze.Library.pdb
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\obj\Debug\net5.0\Maze.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\obj\Debug\net5.0\Maze.Library.AssemblyInfoInputs.cache
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\obj\Debug\net5.0\Maze.Library.AssemblyInfo.cs
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\obj\Debug\net5.0\Maze.Library.csproj.CoreCompileInputs.cache
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\obj\Debug\net5.0\Maze.Library.dll
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\obj\Debug\net5.0\ref\Maze.Library.dll
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\obj\Debug\net5.0\Maze.Library.pdb
+D:\HTL\4CHIF\PROO-C#\!HÜs\Github\robot-maze-quiz-RauschSchottManuel\Maze.Library\obj\Debug\net5.0\Maze.Library.csprojAssemblyReference.cache

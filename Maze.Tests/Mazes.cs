@@ -20,9 +20,9 @@ namespace Maze.Tests
         public static readonly (int y, int x) SnakeEnd = (0, 7);
         public static readonly IEnumerable<Direction> SnakeSolution = new[]
         {
-            Direction.Down, Direction.Down, Direction.Right, Direction.Right, 
-            Direction.Up, Direction.Up, Direction.Right, Direction.Right, 
-            Direction.Down, Direction.Down, Direction.Right, Direction.Right, 
+            Direction.Down, Direction.Down, Direction.Right, Direction.Right,
+            Direction.Up, Direction.Up, Direction.Right, Direction.Right,
+            Direction.Down, Direction.Down, Direction.Right, Direction.Right,
             Direction.Up, Direction.Up, Direction.Right
         };
 
@@ -41,8 +41,8 @@ namespace Maze.Tests
         public static readonly (int y, int x) CircleEnd = (3, 6);
         public static readonly IEnumerable<Direction> CircleSolution = new[]
         {
-            Direction.Down, Direction.Down, Direction.Right, Direction.Right, 
-            Direction.Down, Direction.Right, Direction.Right, 
+            Direction.Down, Direction.Down, Direction.Right, Direction.Right,
+            Direction.Down, Direction.Right, Direction.Right,
             Direction.Up, Direction.Up, Direction.Right, Direction.Right,
             Direction.Down, Direction.Down
         };
